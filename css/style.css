@@ -1,0 +1,666 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	font-size: 70px;
+	padding: 10px 15px;
+}
+
+h2 {
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 10px 15px;
+}
+
+h3 {
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 15px;
+}
+
+h4 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 10px 15px;
+}
+
+p {
+	font-family: Arial;
+	font-size: 15px;
+	padding: 5px 10px;
+	line-height: 30px;
+}
+
+.container {
+	width: 85%;
+  	margin: auto;
+  	overflow: hidden;
+}
+
+.white {
+	color: #fff;
+}
+
+.arial {
+	font-family: Arial;
+}
+
+button {
+	color: #fff;
+  	height: 37px;
+ 	width: 100px;
+	padding: 5px 2px;
+	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	color: #4d60b1;
+	font-size: 150%;
+}
+
+i {
+	width: 30px;
+    height:22px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 15px;
+    vertical-align: middle;
+    padding: 30px 28px;
+}
+
+
+/*========================
+  Header
+ =========================*/
+header {
+ 	background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/bgd.jpg) center center no-repeat;
+ 	background-size: cover;
+ 	opacity: 0.9;
+ 	height: 700px;
+ }
+
+#logo {
+ 	padding: 15px 0 10px 0;
+ 	height: 55px;
+ 	width: auto;
+}
+
+#menu-icon {
+	display: none;
+ 	width: 40px;
+ 	height: 40px;
+ 	border: 2px solid #fff;
+ 	border-radius: 4px;
+}
+
+ header nav a:hover{
+	border-radius: 4px 4px;
+}
+
+nav {
+	float: right;
+	padding: 20px;
+	margin-top: -60px;
+	margin-left: 650px;
+}
+ 
+nav ul li {
+ 	display: inline-block;
+ 	padding: 10px 10px;
+ }
+
+a:hover {
+ 	color: #4d60b1;
+ }
+
+.active {
+ 	color: #4d60b1;
+ }
+
+.main {
+ 	padding: 180px 180px;
+ 	text-align: center;
+
+ }
+
+#btn-1 {
+ 	margin-top: 40px;
+ 	width: 150px;
+ 	height: 50px;
+ 	border-radius: 25px;
+ 	background: #4d60b1;
+ }
+
+ #btn-1:hover {
+  	background: transparent;
+  	border: 2px solid #fff;
+  }
+
+  /*========================
+  Services
+ =========================*/
+#services {
+	background: #f9f9f9;
+	width: auto;
+	padding: 30px 60px 50px 60px;
+}
+
+.style {
+ 	padding: 40px 220px;
+ 	text-align: center;
+ }
+
+.i1 {
+	position: relative;
+	z-index: 1;
+	background: #fff;
+	color: #111;
+    border: 3px solid #4d60b1;
+    margin-top: -50px;
+}
+
+.boxes {
+ 	display: inline-block;
+ 	text-align: center;
+ 	height: 360px;
+ 	width: 350px;
+    border-top: 3px solid #4d60b1;
+ 	background: #fff;
+ 	margin: 50px 25px 20px 25px;
+ }
+
+.boxes:hover {
+ 	box-shadow: 0 3px 8px 5px #ede3e3;
+ }
+
+.btn-2 {
+ 	margin: 10px;
+ 	border: 3px solid #4d60b1;
+ 	background: #fff;
+ 	color: #4d60b1;
+ 	height: 40px;
+ 	width: 80px;
+}
+
+.btn-2:hover {
+  	background: #4d60b1;
+ 	color: #fff;
+}
+
+#banner {
+	background: #222;
+	color: #fff;
+	height: 150px;
+	max-width: auto;
+	padding: 40px 30px;
+	text-align: center;
+}
+
+.btn-3 {
+	margin: 20px;
+ 	background: #0288d1;
+ 	color: #fff;
+ 	height: 40px;
+ 	width: 120px;
+ 	border-radius: 2px;
+}
+
+.btn-3:hover {
+ 	background: #fff;
+ 	color: #111;	
+}
+
+/*========================
+  Recent Projects
+ =========================*/
+.container1 {
+	width: 100%;
+}
+
+.pic {
+ 	display: inline-block;
+ 	height: 307px;
+ 	width: 460px;
+ 	margin: -8px;
+}
+ 
+.center {
+	text-align: center;
+}
+
+.btn-4 {
+	margin: 50px 10px 40px 10px;
+ 	background: #0288d1;
+ 	color: #fff;
+ 	height: 40px;
+ 	width: 120px;
+ 	border-radius: 2px;
+} 
+
+.btn-4:hover {
+ 	background: #fff;
+ 	color: #111;	
+ 	border: 3px solid #4d60b1;
+}
+
+/*========================
+  Testimonial
+ =========================*/
+ #testimonial {
+ 	height: 600px;
+ 	background: #eef1f2;
+ 	padding: 40px 10px 40px 10px;
+}
+
+.review-box {
+	display: inline-block;
+	width: 340px;
+	height: 240px;
+	text-align: justify;
+	padding: 10px 15px;
+}
+
+.review1 {
+	background: #fff;
+	border-top: 3px solid #4d60b1;
+}
+
+.author {
+	background: #425CBB;
+}
+
+.designation {
+	color: #fff;
+	margin-top: -15px;
+}
+
+.i2 {
+	position: relative;
+	z-index: 1;
+	background: #425CBB;
+	color: #fff;
+	margin-top: -40px;
+	margin-left: 120px; 
+}
+
+/*========================
+  Team
+ =========================*/
+.team {
+	height: 650px;
+}
+
+.team-members {
+ 	height: 300px;
+ 	width: 260px;
+ 	padding: 10px 10px;
+ 	margin: 20px 0 20px 0;
+}
+
+/*========================
+  Partner
+ =========================*/
+.partner {
+	height: 500px;
+}
+
+.partners {
+ 	border: 1px solid #d8d2d7;
+	margin: 10px 40px;
+}
+
+.partners:hover {
+ 	border: 1px solid #425CBB;
+}
+
+/*========================
+  Contact
+ =========================*/
+.contact {
+	height: 700px;
+}
+
+.form {
+	float: left;
+	width: 60%;
+	margin: 0 10px;
+}
+
+.contact-details {
+	float: right;
+}
+
+.name {
+	height: 40px;
+	width: 280px;
+	padding: 0 5px;
+	margin-right: 25px;
+	border-radius: 4px;
+}
+
+.email {
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	border-radius: 4px;
+}
+
+.message {
+	margin-top: 15px;
+	height: 250px;
+	width: 665px;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+#btn-5 {
+	margin: 10px 0 30px 0;
+	height: 40px;
+	width: 150px;
+	background: #425CBB;
+}
+
+#btn-5:hover {
+	background: #333;
+}
+
+.i3 {
+	height: 22px;
+	width: 30px;
+	padding: 15px 12px;
+	background: #425CBB;
+	color: #fff; 
+	margin-bottom: -80px;
+	margin-left: -50px;
+}
+
+.contact-details p {
+	margin-top: -15px;
+}
+
+/*========================
+  Map
+ =========================*/
+.map {
+ 	height: 400px;
+ 	width: 100%;
+ 	margin-bottom: -5px;
+}
+
+/*========================
+  Footer
+ =========================*/ 
+footer {
+ 	background: #222;
+ 	height: 70px;
+ 	padding: 25px 15px;
+}
+
+.copyright {
+	float: left;
+	color: #fff;
+	padding: 20px 15px;
+}
+
+.social {
+	float: right;
+	margin-top: 10px;
+}
+
+.i4 {
+	color: #fff;
+	background: #333;
+	width: 20px;
+    height:20px;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 15px 15px;
+    margin-right: 5px;
+}
+
+.i4:last-child {
+	margin-right: 10px;
+}
+
+.fb:hover {
+	background: #5D82D1;
+}
+
+.tw:hover {
+	background: #40BFF5;
+}
+
+.gp:hover {
+	background: #EB5E4C;
+}
+
+.li:hover {
+	background: #238CC8;
+}
+
+.yt:hover {
+	background: #CC181E;
+}
+
+.sk:hover {
+	background: #00AFF0;
+}
+
+/*=========================
+  Media Queries
+ =========================*/
+ @media(max-width: 650px) {
+
+h1 {
+	font-size: 50px;
+	padding: 10px 15px;
+}
+
+h2 {
+	font-size: 30px;
+	padding: 10px 15px;
+}
+
+h3 {
+	font-size: 15px;
+	padding: 10px 15px;
+}
+
+h4 {
+	font-size: 15px;
+	padding: 10px 15px;
+}
+
+p {
+	padding: 5px 10px;
+	line-height: 30px;
+}
+
+nav {
+	margin-top: -80px;
+}
+
+#menu-icon {
+
+	display: inline-block;
+	margin-left: 0px;
+}
+
+nav ul,nav:active ul {
+	display: none;
+	position: relative;
+	width: 250px;
+	border: 2px solid #fff;
+	padding: 10px 20px;
+	border-radius: 4px;
+	margin-left: -250px;
+}
+
+nav ul li {
+	display: block;
+	text-align: center;
+}
+
+nav:hover ul {
+	display: block;
+}
+
+.main {
+	margin: 80px 10px 20px 10px;
+	text-align: center;
+	padding: 20px 40px;
+}
+
+.style {
+	padding: 10px 10px;
+	margin: 10px 10px;
+	text-align: center;
+}
+
+.boxes {
+	margin-left: 0px; 
+	width: 100%;
+}
+
+.pic {
+	height: 100%;
+	width: 100%;
+	margin: -2px 0;
+}
+
+#testimonial {
+	height: auto;
+	text-align: center;
+}
+
+.review-box {
+	margin: 40px 20px;
+}
+
+.team {
+	text-align: center;
+	height: auto;
+}
+
+.team-members {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: 10px 20px;
+}
+
+.partner {
+	margin: 40px 10px;
+	text-align: center;
+	height: auto;
+}
+
+.partners {
+	display: inline-block;
+	margin: 20px 10px;
+	width: 30%;
+	height: auto;
+}
+
+.contact {
+	text-align: center;
+	height: auto;
+}
+
+.name, .email {
+	margin: 10px 10px;
+	width: 450px;
+}
+
+.message {
+	margin: 10px 5px;
+	width: 450px;
+}
+
+#btn-5 {
+	margin-right: -180px;
+}
+
+.contact-details {
+	text-align: justify;
+	margin-bottom: 40px;
+	margin-right: 80px;
+}
+
+.contact-details i {
+	float: left;
+}
+
+footer {
+	height: auto;
+	text-align: center;
+}
+
+.copyright {
+	margin-left: 60px;
+} 
+
+.social {
+	margin-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
